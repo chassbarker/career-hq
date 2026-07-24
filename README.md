@@ -2,10 +2,13 @@
 
 **An AI-Powered Career Management Platform**
 
-Career HQ is a cloud‑native, AI‑powered career management platform built to help students and early‑career professionals organize every part of their job search in one secure place.  
-It centralizes applications, resumes, interviews, certifications, projects, salary research, networking, and long‑term career growth into a single, accessible dashboard.
+Career HQ is a cloud-native, AI-powered career management platform designed to help students and early-career professionals organize every part of their job search in one secure and accessible place.
 
-This project serves as my flagship portfolio build, showcasing full‑stack development, cloud architecture, AWS integration, DevOps practices, database design, security, accessibility, and AI‑assisted workflows.
+The platform brings job applications, resume versions, interview preparation, certifications, portfolio projects, salary research, networking, follow-up tasks, and long-term career goals into one centralized dashboard. Its purpose is to reduce overwhelm, make important information easier to manage, and help users clearly identify their next step.
+
+Career HQ is my flagship portfolio project and reflects the skills I have developed while studying cloud computing. Through this project, I am applying full-stack development, cloud architecture, AWS integration, DevOps practices, database design, authentication, security, accessibility, and AI-assisted workflows to solve a real-world problem.
+
+The project is being developed in phases, beginning with a responsive frontend and expanding into a secure full-stack application with Supabase, PostgreSQL, AWS services, automation, and future AI features.
 
 ## Live Demo
 
