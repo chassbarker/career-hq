@@ -415,6 +415,22 @@ Current work includes:
 
 Features listed in this README are marked as planned until they are implemented and tested.
 
+## Development Roadmap
+
+Career HQ is being developed incrementally, with each version focused on a clear product milestone.
+
+- ✅ **v0.2.0 — Professional Landing Page**
+- 🚧 **v0.3.0 — Design System and Dashboard UI**
+- ⬜ **v0.4.0 — Authentication**
+- ⬜ **v0.5.0 — Job Applications**
+- ⬜ **v0.6.0 — Resume HQ**
+- ⬜ **v0.7.0 — Interview HQ**
+- ⬜ **v0.8.0 — Certifications**
+- ⬜ **v0.9.0 — AI Assistant**
+- ⬜ **v1.0.0 — Production Release**
+
+For detailed goals and planned features, see the [full development roadmap](docs/ROADMAP.md).
+
 ## Skills Demonstrated
 
 This project is designed to demonstrate:
