@@ -1,5 +1,25 @@
 # Career HQ
 
+Project Description
+
+Table of Contents
+
+Features
+
+Technology Stack
+
+Current Project Status
+
+Development Roadmap
+
+Project Documentation
+
+Engineering Practices
+
+Future Enhancements
+
+License
+
 **An AI-Powered Career Management Platform**
 
 Career HQ is a cloud-native, AI-powered career management platform designed to help students and early-career professionals organize every part of their job search in one secure and accessible place.
@@ -9,6 +29,17 @@ The platform brings job applications, resume versions, interview preparation, ce
 Career HQ is my flagship portfolio project and reflects the skills I have developed while studying cloud computing. Through this project, I am applying full-stack development, cloud architecture, AWS integration, DevOps practices, database design, authentication, security, accessibility, and AI-assisted workflows to solve a real-world problem.
 
 The project is being developed in phases, beginning with a responsive frontend and expanding into a secure full-stack application with Supabase, PostgreSQL, AWS services, automation, and future AI features.
+
+## Table of Contents
+
+- [Features](#features)
+- [Technology Stack](#technology-stack)
+- [Current Project Status](#current-project-status)
+- [Development Roadmap](#development-roadmap)
+- [Project Documentation](#project-documentation)
+- [Engineering Practices](#engineering-practices)
+- [Future Enhancements](#future-enhancements)
+- [License](#license)
 
 ## Live Demo
 
@@ -509,6 +540,54 @@ Cloud Computing student focused on cloud architecture, AI, DevOps, automation, a
 * GitHub: [chassbarker](https://github.com/chassbarker)
 * LinkedIn: [Chassidy Barker](https://www.linkedin.com/in/chassidy-barker-02478535a)
 * Portfolio: [chassidybarker.com](https://chassidybarker.com)
+
+## Engineering Practices
+
+Career HQ is developed using professional software engineering practices, including:
+
+- Conventional Commits
+- Semantic Versioning
+- Incremental feature development
+- Product documentation
+- System architecture planning
+- Accessibility-first design
+- Responsive development
+- GitHub Pages deployment
+- Secure authentication planning
+- Database-first design
+
+## Engineering Practices
+
+Career HQ is developed using professional software engineering practices to ensure maintainability, scalability, and long-term growth.
+
+### Development Standards
+
+- Conventional Commits
+- Semantic Versioning
+- Incremental feature development
+- Documentation-first planning
+- GitHub Flow workflow
+- Modular and maintainable code
+- Accessibility-first design (WCAG 2.2 AA)
+- Mobile-first responsive development
+- Security-first architecture
+- Database-first design
+- Continuous improvement through iterative releases
+
+### Project Management
+
+Development is organized using:
+
+- Product Requirements Documentation (PRD)
+- System Architecture planning
+- Database design documentation
+- Security documentation
+- UI/UX design guidelines
+- Development roadmap
+- Changelog tracking
+- GitHub Issues and Milestones (planned)
+
+These practices help ensure Career HQ is built using the same engineering principles commonly found in professional software development environments.
 
 ## License
 
