@@ -431,6 +431,18 @@ Career HQ is being developed incrementally, with each version focused on a clear
 
 For detailed goals and planned features, see the [full development roadmap](docs/ROADMAP.md).
 
+## Project Documentation
+
+Detailed project documentation is available in the [`docs`](docs/) directory.
+
+- [Product Requirements](docs/PRODUCT_REQUIREMENTS.md)
+- [System Architecture](docs/SYSTEM_ARCHITECTURE.md)
+- [Database Design](docs/DATABASE_DESIGN.md)
+- [Security](docs/SECURITY.md)
+- [UI/UX Guidelines](docs/UI_UX_GUIDELINES.md)
+- [Development Roadmap](docs/ROADMAP.md)
+- [Contributing Guide](docs/CONTRIBUTING.md)
+
 ## Skills Demonstrated
 
 This project is designed to demonstrate:
