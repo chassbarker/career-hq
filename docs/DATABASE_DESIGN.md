@@ -1,5 +1,18 @@
 # Career HQ Database Design
 
+# Database Design
+
+| Property | Value |
+|----------|-------|
+| Document | Database Design |
+| Project | Career HQ |
+| Document Version | 0.2.0 |
+| Product Version | 0.2.0 |
+| Status | In Development |
+| Author | Chassidy Barker |
+| Last Updated | July 2026 |
+
+---
 ## Overview
 
 Career HQ will use PostgreSQL through Supabase to store user-owned career data securely.

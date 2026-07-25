@@ -1,5 +1,17 @@
 # Career HQ Development Roadmap
 
+| Property | Value |
+|----------|-------|
+| Document | Development Roadmap |
+| Project | Career HQ |
+| Document Version | 0.2.0 |
+| Product Version | 0.2.0 |
+| Status | Active |
+| Author | Chassidy Barker |
+| Last Updated | July 2026 |
+
+---
+
 Career HQ will be developed incrementally so each version can be planned, tested, documented, and improved before the next stage begins.
 
 ## Version 0.2.0 — Professional Landing Page ✅

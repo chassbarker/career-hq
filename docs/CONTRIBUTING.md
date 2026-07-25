@@ -1,3 +1,17 @@
+# Contributing
+
+| Property | Value |
+|----------|-------|
+| Document | Contributing Guide |
+| Project | Career HQ |
+| Document Version | 0.2.0 |
+| Product Version | 0.2.0 |
+| Status | In Development |
+| Author | Chassidy Barker |
+| Last Updated | July 2026 |
+
+---
+
 # Contributing to Career HQ
 
 Thank you for your interest in contributing to Career HQ.
