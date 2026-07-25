@@ -1,7 +1,7 @@
 # Career HQ Development Roadmap
 
 | Property | Value |
-|----------|-------|
+| -------- | ----- |
 | Document | Development Roadmap |
 | Project | Career HQ |
 | Document Version | 0.2.0 |
@@ -110,7 +110,7 @@ Career HQ will be developed incrementally so each version can be planned, tested
 - Architecture documentation
 - Demo video and portfolio case study
 
-# Versioning Strategy
+## Versioning Strategy
 
 Career HQ follows Semantic Versioning.
 

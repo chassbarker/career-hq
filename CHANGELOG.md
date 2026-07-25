@@ -1,6 +1,8 @@
-v0.2.0
+# Changelog
 
-Added
+## v0.2.0
+
+### Added
 
 - Responsive landing page
 - Design system

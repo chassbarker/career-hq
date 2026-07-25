@@ -1,18 +1,18 @@
 # Documentation Standard
 
-| Property | Value |
-|----------|-------|
-| Document | Documentation Standard |
-| Project | Career HQ |
-| Document Version | 0.2.0 |
-| Product Version | 0.2.0 |
-| Status | Active |
-| Owner | Chassidy Barker |
-| Last Updated | July 24, 2026 |
+| Property         | Value                  |
+| ---------------- | ---------------------- |
+| Document         | Documentation Standard |
+| Project          | Career HQ              |
+| Document Version | 0.2.0                  |
+| Product Version  | 0.2.0                  |
+| Status           | Active                 |
+| Owner            | Chassidy Barker        |
+| Last Updated     | July 24, 2026          |
 
 ---
 
-# Overview
+## Overview
 
 This document establishes the documentation standards used throughout the Career HQ project.
 
@@ -22,7 +22,7 @@ Consistent documentation improves readability, maintainability, and professional
 
 ---
 
-# Documentation Goals
+## Documentation Goals
 
 All project documentation should:
 
@@ -37,7 +37,7 @@ All project documentation should:
 
 ---
 
-# Standard Document Structure
+## Standard Document Structure
 
 Unless a document requires a different format, all documentation should follow this structure:
 
@@ -57,7 +57,7 @@ Revision History
 
 ---
 
-# Document Information
+## Document Information
 
 Every document begins with the following information.
 
@@ -75,32 +75,32 @@ Every document begins with the following information.
 
 ---
 
-# Document Status Values
+## Document Status Values
 
 Use only the following status values.
 
-| Status | Meaning |
-|----------|-------------------------------|
-| Draft | Initial work in progress |
-| In Development | Actively being developed |
-| Active | Complete and actively maintained |
-| Released | Final for the current product version |
-| Archived | No longer maintained |
+| Status         | Meaning                               |
+| -------------- | ------------------------------------- |
+| Draft          | Initial work in progress              |
+| In Development | Actively being developed              |
+| Active         | Complete and actively maintained      |
+| Released       | Final for the current product version |
+| Archived       | No longer maintained                  |
 
 ---
 
-# Document Versioning
+## Document Versioning
 
 Documentation versions follow the product lifecycle.
 
 Example:
 
 | Product Version | Document Version |
-|----------------|------------------|
-| 0.2.0 | 0.2.0 |
-| 0.3.0 | 0.3.0 |
-| 0.4.0 | 0.4.0 |
-| 1.0.0 | 1.0.0 |
+| --------------- | ---------------- |
+| 0.2.0           | 0.2.0            |
+| 0.3.0           | 0.3.0            |
+| 0.4.0           | 0.4.0            |
+| 1.0.0           | 1.0.0            |
 
 Whenever a document is significantly updated:
 
@@ -111,7 +111,7 @@ Whenever a document is significantly updated:
 
 ---
 
-# Writing Style
+## Writing Style
 
 Documentation should:
 
@@ -123,7 +123,7 @@ Documentation should:
 
 ---
 
-# Markdown Standards
+## Markdown Standards
 
 Use:
 
@@ -141,7 +141,7 @@ Avoid:
 
 ---
 
-# Headings
+## Headings
 
 Recommended heading hierarchy:
 
@@ -159,7 +159,7 @@ Do not skip heading levels.
 
 ---
 
-# Lists
+## Lists
 
 Use unordered lists when order is not important.
 
@@ -181,7 +181,7 @@ Example:
 
 ---
 
-# Code Blocks
+## Code Blocks
 
 Always specify the language.
 
@@ -201,19 +201,19 @@ SELECT * FROM applications;
 
 ---
 
-# Tables
+## Tables
 
 Use tables for structured information.
 
 Example:
 
-| Property | Value |
-|----------|-------|
-| Project | Career HQ |
+| Property | Value     |
+| -------- | --------- |
+| Project  | Career HQ |
 
 ---
 
-# Images
+## Images
 
 Future documentation images should:
 
@@ -238,7 +238,7 @@ application-tracker.png
 
 ---
 
-# Diagrams
+## Diagrams
 
 Architecture diagrams should be:
 
@@ -257,7 +257,7 @@ Future diagrams may include:
 
 ---
 
-# Revision History
+## Revision History Guidance
 
 Every document should end with:
 
@@ -273,13 +273,13 @@ Future revisions should be appended.
 
 Example:
 
-| Version | Date | Description |
-|----------|------|-------------|
-| 0.3.0 | August 18, 2026 | Updated for dashboard implementation |
+| Version | Date            | Description                          |
+| ------- | --------------- | ------------------------------------ |
+| 0.3.0   | August 18, 2026 | Updated for dashboard implementation |
 
 ---
 
-# Current Status
+## Current Status
 
 ## Implemented
 
@@ -296,7 +296,7 @@ Example:
 
 ---
 
-# Related Documents
+## Related Documents
 
 - Product Requirements
 - System Architecture
@@ -309,8 +309,8 @@ Example:
 
 ---
 
-# Revision History
+## Revision History
 
-| Version | Date | Description |
-|----------|------|-------------|
-| 0.2.0 | July 24, 2026 | Initial Documentation Standard |
+| Version | Date          | Description                    |
+| ------- | ------------- | ------------------------------ |
+| 0.2.0   | July 24, 2026 | Initial Documentation Standard |

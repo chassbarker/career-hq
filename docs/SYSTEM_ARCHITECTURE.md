@@ -1,7 +1,7 @@
 # System Architecture
 
 | Property | Value |
-|----------|-------|
+| -------- | ----- |
 | Document | System Architecture |
 | Project | Career HQ |
 | Document Version | 0.2.0 |

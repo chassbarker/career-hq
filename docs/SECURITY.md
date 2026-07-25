@@ -12,7 +12,7 @@
 
 ---
 
-# Overview
+## Overview
 
 Career HQ is designed with a security-first approach to protect user information, career documents, and application data.
 
@@ -22,7 +22,7 @@ As the project evolves, this document will be updated to reflect implemented sec
 
 ---
 
-# Security Objectives
+## Security Objectives
 
 Career HQ is designed to:
 
@@ -35,13 +35,13 @@ Career HQ is designed to:
 
 ---
 
-# Authentication
+## Authentication
 
-## Current Status
+### Current Status
 
 Authentication is planned for a future release.
 
-## Planned Implementation
+### Planned Implementation
 
 Career HQ will use Supabase Authentication for:
 
@@ -59,7 +59,7 @@ Future enhancements may include:
 
 ---
 
-# Authorization
+## Authorization
 
 Every authenticated user should only have access to their own data.
 
@@ -72,7 +72,7 @@ Future authorization will include:
 
 ---
 
-# Row Level Security (RLS)
+## Row Level Security (RLS)
 
 Supabase Row Level Security will be enabled for every user-owned table.
 
@@ -91,7 +91,7 @@ Users will only be able to:
 
 ---
 
-# Database Security
+## Database Security
 
 Career HQ will use PostgreSQL through Supabase.
 
@@ -106,7 +106,7 @@ Security practices include:
 
 ---
 
-# Input Validation
+## Input Validation
 
 User input will be validated to reduce errors and improve security.
 
@@ -123,7 +123,7 @@ Both client-side and server-side validation will be used.
 
 ---
 
-# Password Handling
+## Password Handling
 
 Passwords will never be stored by Career HQ.
 
@@ -137,7 +137,7 @@ Career HQ will never:
 
 ---
 
-# Environment Variables
+## Environment Variables
 
 Sensitive configuration values will never be committed to Git.
 
@@ -150,7 +150,7 @@ Examples include:
 
 Development will use:
 
-```
+```text
 .env
 .env.local
 ```
@@ -159,7 +159,7 @@ These files will be excluded using `.gitignore`.
 
 ---
 
-# Secure Headers
+## Secure Headers
 
 Future deployments may include security headers such as:
 
@@ -173,7 +173,7 @@ These headers help reduce common web vulnerabilities.
 
 ---
 
-# HTTPS
+## HTTPS
 
 Career HQ will always be deployed using HTTPS.
 
@@ -186,7 +186,7 @@ Encrypted communication helps protect:
 
 ---
 
-# File Storage Security
+## File Storage Security
 
 Future uploaded files may include:
 
@@ -204,7 +204,7 @@ Storage requirements:
 
 ---
 
-# Logging and Monitoring
+## Logging and Monitoring
 
 Future releases may include:
 
@@ -217,7 +217,7 @@ AWS CloudWatch may be used in future deployments.
 
 ---
 
-# AWS Security (Planned)
+## AWS Security (Planned)
 
 Future AWS integrations may include:
 
@@ -233,7 +233,7 @@ These services will be evaluated as Career HQ transitions toward production depl
 
 ---
 
-# Secure Development Practices
+## Secure Development Practices
 
 Career HQ follows secure development practices including:
 
@@ -247,7 +247,7 @@ Career HQ follows secure development practices including:
 
 ---
 
-# Accessibility and Security
+## Accessibility and Security
 
 Accessibility contributes to security by providing:
 
@@ -260,7 +260,7 @@ Career HQ aims to meet WCAG 2.2 AA guidelines.
 
 ---
 
-# Future Security Enhancements
+## Future Security Enhancements
 
 Planned improvements include:
 
@@ -277,22 +277,22 @@ Planned improvements include:
 
 ---
 
-# Current Status
+## Implementation Status
 
-## Implemented
+### Implemented
 
 - GitHub version control
 - Documentation-first development
 - Security planning
 - HTTPS deployment through GitHub Pages
 
-## In Progress
+### In Progress
 
 - Security architecture
 - Database planning
 - Authentication planning
 
-## Planned
+### Planned
 
 - Supabase Authentication
 - PostgreSQL
@@ -302,8 +302,8 @@ Planned improvements include:
 
 ---
 
-# Revision History
+## Revision History
 
-| Version | Date | Description |
-|----------|------|-------------|
-| 0.2.0 | July 2026 | Initial security documentation |
+| Version | Date      | Description                    |
+| ------- | --------- | ------------------------------ |
+| 0.2.0   | July 2026 | Initial security documentation |

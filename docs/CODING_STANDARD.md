@@ -1,18 +1,18 @@
 # Coding Standard
 
-| Property | Value |
-|----------|-------|
-| Document | Coding Standard |
-| Project | Career HQ |
-| Document Version | 0.2.0 |
-| Product Version | 0.2.0 |
-| Status | Active |
-| Owner | Chassidy Barker |
-| Last Updated | July 24, 2026 |
+| Property         | Value            |
+| ---------------- | ---------------- |
+| Document         | Coding Standard  |
+| Project          | Career HQ        |
+| Document Version | 0.2.0            |
+| Product Version  | 0.2.0            |
+| Status           | Active           |
+| Owner            | Chassidy Barker  |
+| Last Updated     | July 24, 2026    |
 
 ---
 
-# Overview
+## Overview
 
 This document defines the coding standards used throughout the Career HQ project.
 
@@ -22,7 +22,7 @@ These standards apply to all HTML, CSS, JavaScript, SQL, and future cloud-based 
 
 ---
 
-# Development Principles
+## Development Principles
 
 Career HQ is built using the following principles:
 
@@ -37,7 +37,7 @@ Career HQ is built using the following principles:
 
 ---
 
-# Project Structure
+## Project Structure
 
 ```text
 career-hq/
@@ -68,7 +68,7 @@ Every file should have a clear purpose.
 
 ---
 
-# HTML Standards
+## HTML Standards
 
 Use semantic HTML whenever possible.
 
@@ -85,7 +85,7 @@ Preferred elements include:
 
 Avoid unnecessary `<div>` elements when semantic elements are more appropriate.
 
-### Accessibility
+## HTML Accessibility
 
 Every page should include:
 
@@ -98,7 +98,7 @@ Every page should include:
 
 ---
 
-# CSS Standards
+## CSS Standards
 
 Career HQ uses a mobile-first responsive design approach.
 
@@ -127,7 +127,7 @@ Example:
 
 ---
 
-# JavaScript Standards
+## JavaScript Standards
 
 JavaScript should be:
 
@@ -164,7 +164,7 @@ function toggleMenu() {
 
 ---
 
-# Naming Conventions
+## Naming Conventions
 
 Use descriptive names.
 
@@ -192,7 +192,7 @@ test
 
 ---
 
-# File Naming
+## File Naming
 
 Use lowercase file names.
 
@@ -218,7 +218,7 @@ job-applications.html
 
 ---
 
-# Folder Organization
+## Folder Organization
 
 Files should remain organized by purpose.
 
@@ -244,7 +244,7 @@ Avoid placing unrelated files in the project root.
 
 ---
 
-# Comments
+## Comments
 
 Comments should explain **why**, not **what**.
 
@@ -262,7 +262,7 @@ Avoid
 
 ---
 
-# Performance
+## Performance
 
 Career HQ should:
 
@@ -274,7 +274,7 @@ Career HQ should:
 
 ---
 
-# Security
+## Security
 
 Never expose:
 
@@ -293,7 +293,7 @@ Follow the Principle of Least Privilege.
 
 ---
 
-# Accessibility
+## Accessibility
 
 Career HQ aims to meet WCAG 2.2 AA.
 
@@ -309,7 +309,7 @@ Accessibility is considered throughout development rather than added afterward.
 
 ---
 
-# Responsive Design
+## Responsive Design
 
 Design for:
 
@@ -322,7 +322,7 @@ Layouts should adapt without breaking functionality.
 
 ---
 
-# Version Control
+## Version Control
 
 Development follows:
 
@@ -334,7 +334,7 @@ One logical change should be committed at a time.
 
 ---
 
-# Testing
+## Testing
 
 Before committing:
 
@@ -346,7 +346,7 @@ Before committing:
 
 ---
 
-# AI-Assisted Development
+## AI-Assisted Development
 
 AI tools may be used to:
 
@@ -366,7 +366,7 @@ AI-generated code should never be copied without review.
 
 ---
 
-# Future Standards
+## Future Standards
 
 As Career HQ evolves, this document may expand to include:
 
@@ -380,9 +380,9 @@ As Career HQ evolves, this document may expand to include:
 
 ---
 
-# Current Status
+## Current Status
 
-## Implemented
+### Implemented
 
 - HTML standards
 - CSS standards
@@ -401,8 +401,8 @@ As Career HQ evolves, this document may expand to include:
 
 ---
 
-# Revision History
+## Revision History
 
-| Version | Date | Description |
-|----------|------|-------------|
-| 0.2.0 | July 24, 2026 | Initial Coding Standard |
+| Version | Date          | Description             |
+| ------- | ------------- | ----------------------- |
+| 0.2.0   | July 24, 2026 | Initial Coding Standard |

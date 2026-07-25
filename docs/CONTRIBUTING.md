@@ -1,7 +1,7 @@
 # Contributing
 
 | Property | Value |
-|----------|-------|
+| -------- | ----- |
 | Document | Contributing Guide |
 | Project | Career HQ |
 | Document Version | 0.2.0 |
@@ -12,7 +12,7 @@
 
 ---
 
-# Contributing to Career HQ
+## Contributing to Career HQ
 
 Thank you for your interest in contributing to Career HQ.
 
@@ -20,7 +20,7 @@ Career HQ is currently a personal portfolio project developed and maintained by 
 
 ---
 
-# Development Workflow
+## Development Workflow
 
 Every feature follows the same process:
 
@@ -34,9 +34,9 @@ Every feature follows the same process:
 
 ---
 
-# Repository Structure
+## Repository Structure
 
-```
+```text
 career-hq/
 │
 ├── assets/
@@ -56,13 +56,13 @@ career-hq/
 
 ---
 
-# Branch Naming Convention
+## Branch Naming Convention
 
 Future development should use descriptive branch names.
 
 Examples:
 
-```
+```text
 feature/dashboard
 feature/authentication
 feature/job-applications
@@ -78,13 +78,13 @@ docs/security
 
 ---
 
-# Commit Message Convention
+## Commit Message Convention
 
 Career HQ follows conventional commit messages.
 
 Examples:
 
-```
+```text
 feat: add dashboard layout
 
 fix: correct mobile navigation
@@ -104,7 +104,7 @@ Each commit should represent one logical change.
 
 ---
 
-# Coding Standards
+## Coding Standards
 
 - Use semantic HTML5 elements.
 - Follow accessibility best practices (WCAG 2.2 AA).
@@ -116,7 +116,7 @@ Each commit should represent one logical change.
 
 ---
 
-# Testing Checklist
+## Testing Checklist
 
 Before committing changes:
 
@@ -128,7 +128,7 @@ Before committing changes:
 
 ---
 
-# Documentation
+## Documentation
 
 Project documentation should remain synchronized with development.
 
@@ -145,7 +145,7 @@ When appropriate, update:
 
 ---
 
-# License
+## License
 
 This project is licensed under the MIT License.
 

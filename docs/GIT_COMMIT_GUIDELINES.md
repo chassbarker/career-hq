@@ -1,7 +1,7 @@
 # Git Commit Guidelines
 
 | Property | Value |
-|----------|-------|
+| -------- | ----- |
 | Document | Git Commit Guidelines |
 | Project | Career HQ |
 | Document Version | 0.2.0 |
@@ -24,17 +24,19 @@ Every commit should include:
 Example:
 
 git commit -m "feat: add dashboard layout" -m "
+
 - Create responsive dashboard layout
 - Add sidebar navigation
 - Add dashboard cards
 - Prepare dashboard for authentication integration
+
 "
 
 ---
 
-# Commit Types
+## Commit Types
 
-## feat
+### feat
 
 A new feature.
 
@@ -122,7 +124,7 @@ chore: configure GitHub Pages
 
 ---
 
-# Commit Message Guidelines
+## Commit Message Guidelines
 
 Good
 
@@ -138,22 +140,24 @@ changes
 
 ---
 
-# Commit Body Guidelines
+## Commit Body Guidelines
 
 The commit body should summarize the major changes.
 
 Example
 
 git commit -m "feat: add Resume HQ" -m "
+
 - Create resume management page
 - Add resume version tracking
 - Prepare secure file upload support
 - Connect navigation links
+
 "
 
 ---
 
-# General Rules
+## General Rules
 
 - One logical change per commit.
 - Keep commit titles under 72 characters when practical.
@@ -165,7 +169,7 @@ git commit -m "feat: add Resume HQ" -m "
 
 ---
 
-# Career HQ Workflow
+## Career HQ Workflow
 
 1. Plan the feature.
 2. Update documentation.

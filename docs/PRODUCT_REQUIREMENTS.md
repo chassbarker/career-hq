@@ -3,7 +3,7 @@
 ## Career HQ
 
 | Property | Value |
-|----------|-------|
+| -------- | ----- |
 | Document | Product Requirements Document |
 | Project | Career HQ |
 | Document Version | 0.2.0 |
@@ -14,25 +14,30 @@
 
 ---
 
-# Executive Summary
+## Executive Summary
 
-Career HQ is a cloud-native, AI-powered career management platform designed to help students and early-career professionals organize every aspect of their career journey in one secure application.
+Career HQ is a cloud-native, AI-powered career management platform designed to help students and
+early-career professionals organize every aspect of their career journey in one secure application.
 
-The platform centralizes job applications, resumes, interviews, certifications, portfolio projects, salary research, networking, and professional development into a single dashboard.
+The platform centralizes job applications, resumes, interviews, certifications, portfolio projects,
+salary research, networking, and professional development into a single dashboard.
 
-Career HQ also serves as my flagship portfolio project, demonstrating modern software engineering practices, cloud architecture, security, accessibility, DevOps, database design, and AI-assisted workflows.
-
----
-
-# Vision Statement
-
-To build a secure, organized, and intelligent career management platform that simplifies the job search process while demonstrating production-quality software engineering practices.
+Career HQ also serves as my flagship portfolio project, demonstrating modern software engineering
+practices, cloud architecture, security, accessibility, DevOps, database design, and AI-assisted workflows.
 
 ---
 
-# Problem Statement
+## Vision Statement
 
-Managing a career search often requires multiple spreadsheets, cloud storage folders, calendars, notes, emails, and job boards.
+To build a secure, organized, and intelligent career management platform that simplifies the job
+search process while demonstrating production-quality software engineering practices.
+
+---
+
+## Problem Statement
+
+Managing a career search often requires multiple spreadsheets, cloud storage folders, calendars,
+notes, emails, and job boards.
 
 Common problems include:
 
@@ -49,7 +54,7 @@ Career HQ brings these activities together into one centralized application.
 
 ---
 
-# Target Audience
+## Target Audience
 
 ## Primary Users
 
@@ -68,7 +73,7 @@ Career HQ brings these activities together into one centralized application.
 
 ---
 
-# Project Goals
+## Project Goals
 
 Career HQ should:
 
@@ -82,7 +87,7 @@ Career HQ should:
 
 ---
 
-# User Stories
+## User Stories
 
 ### Job Applications
 
@@ -134,7 +139,7 @@ So I can showcase my experience to employers.
 
 ---
 
-# Core Features
+## Core Features
 
 ## Dashboard
 
@@ -231,7 +236,7 @@ AI-generated content will always require user review before being saved or sent.
 
 ---
 
-# Functional Requirements
+## Functional Requirements
 
 The application shall allow users to:
 
@@ -248,7 +253,7 @@ The application shall allow users to:
 
 ---
 
-# Non-Functional Requirements
+## Non-Functional Requirements
 
 ## Security
 
@@ -286,7 +291,7 @@ Career information should remain secure, consistent, and recoverable through doc
 
 ---
 
-# Technology Stack
+## Technology Stack
 
 ## Frontend
 
@@ -312,7 +317,7 @@ Career information should remain secure, consistent, and recoverable through doc
 
 ---
 
-# Success Metrics
+## Success Metrics
 
 Career HQ will be considered successful when users can:
 
@@ -325,7 +330,7 @@ Career HQ will be considered successful when users can:
 
 ---
 
-# Future Enhancements
+## Future Enhancements
 
 Planned future releases include:
 
@@ -341,7 +346,7 @@ Planned future releases include:
 
 ---
 
-# Assumptions
+## Assumptions
 
 This project assumes users:
 
@@ -352,7 +357,7 @@ This project assumes users:
 
 ---
 
-# Constraints
+## Constraints
 
 Current constraints include:
 
@@ -363,7 +368,7 @@ Current constraints include:
 
 ---
 
-# Out of Scope (Version 0.2.0)
+## Out of Scope (Version 0.2.0)
 
 The following are not included in the current version:
 
@@ -376,7 +381,7 @@ The following are not included in the current version:
 
 ---
 
-# Current Status
+## Current Status
 
 ## Completed
 
@@ -404,8 +409,8 @@ The following are not included in the current version:
 
 ---
 
-# Revision History
+## Revision History
 
-| Version | Date | Description |
-|----------|------|-------------|
-| 0.2.0 | July 2026 | Initial Product Requirements Document |
+| Version | Date      | Description                            |
+| ------- | --------- | -------------------------------------- |
+| 0.2.0   | July 2026 | Initial Product Requirements Document  |

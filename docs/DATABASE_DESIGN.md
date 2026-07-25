@@ -1,9 +1,7 @@
 # Career HQ Database Design
 
-# Database Design
-
 | Property | Value |
-|----------|-------|
+| --- | --- |
 | Document | Database Design |
 | Project | Career HQ |
 | Document Version | 0.2.0 |
@@ -13,7 +11,7 @@
 | Last Updated | July 2026 |
 
 ---
-## Overview
+`n## Overview
 
 Career HQ will use PostgreSQL through Supabase to store user-owned career data securely.
 
@@ -91,7 +89,7 @@ The database will use:
 
 ---
 
-# Core Tables
+## Core Tables
 
 ## 1. profiles
 
@@ -102,7 +100,7 @@ Stores user profile information and application preferences.
 ### Planned Columns
 
 | Column | Type | Description |
-|---|---|---|
+| --- | --- | --- |
 | id | uuid | Primary key and authenticated user ID |
 | full_name | text | User's display name |
 | email | text | User email address |
@@ -136,7 +134,7 @@ Stores job application records from discovery through final outcome.
 ### Planned Columns
 
 | Column | Type | Description |
-|---|---|---|
+| --- | --- | --- |
 | id | uuid | Primary key |
 | user_id | uuid | Owner of the application |
 | company_name | text | Employer name |
@@ -206,7 +204,7 @@ Stores resume versions and related metadata.
 ### Planned Columns
 
 | Column | Type | Description |
-|---|---|---|
+| --- | --- | --- |
 | id | uuid | Primary key |
 | user_id | uuid | Owner of the resume |
 | name | text | Resume name |
@@ -249,7 +247,7 @@ Stores documents associated with job applications.
 ### Planned Columns
 
 | Column | Type | Description |
-|---|---|---|
+| --- | --- | --- |
 | id | uuid | Primary key |
 | user_id | uuid | Record owner |
 | application_id | uuid | Related application |
@@ -289,7 +287,7 @@ Stores interview schedules, preparation, notes, and reflections.
 ### Planned Columns
 
 | Column | Type | Description |
-|---|---|---|
+| --- | --- | --- |
 | id | uuid | Primary key |
 | user_id | uuid | Record owner |
 | application_id | uuid | Related job application |
@@ -333,7 +331,7 @@ Stores compensation research for a job opportunity.
 ### Planned Columns
 
 | Column | Type | Description |
-|---|---|---|
+| --- | --- | --- |
 | id | uuid | Primary key |
 | user_id | uuid | Record owner |
 | application_id | uuid | Related application |
@@ -372,7 +370,7 @@ Stores portfolio, school, cloud, AI, and development projects.
 ### Planned Columns
 
 | Column | Type | Description |
-|---|---|---|
+| --- | --- | --- |
 | id | uuid | Primary key |
 | user_id | uuid | Record owner |
 | title | text | Project name |
@@ -412,7 +410,7 @@ Stores certifications, badges, and credentials.
 ### Planned Columns
 
 | Column | Type | Description |
-|---|---|---|
+| --- | --- | --- |
 | id | uuid | Primary key |
 | user_id | uuid | Record owner |
 | name | text | Certification or badge name |
@@ -449,7 +447,7 @@ Stores priorities, reminders, deadlines, and next actions.
 ### Planned Columns
 
 | Column | Type | Description |
-|---|---|---|
+| --- | --- | --- |
 | id | uuid | Primary key |
 | user_id | uuid | Record owner |
 | title | text | Task name |
@@ -487,7 +485,7 @@ Stores recruiters, interviewers, mentors, and networking contacts.
 ### Planned Columns
 
 | Column | Type | Description |
-|---|---|---|
+| --- | --- | --- |
 | id | uuid | Primary key |
 | user_id | uuid | Record owner |
 | full_name | text | Contact name |
@@ -514,7 +512,7 @@ Stores achievements, completed work, and lessons learned.
 ### Planned Columns
 
 | Column | Type | Description |
-|---|---|---|
+| --- | --- | --- |
 | id | uuid | Primary key |
 | user_id | uuid | Record owner |
 | week_start | date | Start of the week |
@@ -535,7 +533,7 @@ Stores unsorted ideas, reminders, and notes for later organization.
 ### Planned Columns
 
 | Column | Type | Description |
-|---|---|---|
+| --- | --- | --- |
 | id | uuid | Primary key |
 | user_id | uuid | Record owner |
 | content | text | Captured thought or idea |
@@ -545,7 +543,7 @@ Stores unsorted ideas, reminders, and notes for later organization.
 
 ---
 
-# Relationships Summary
+## Relationships Summary
 
 ```text
 profiles
@@ -566,7 +564,7 @@ profiles
 
 ---
 
-# Row Level Security
+## Row Level Security
 
 Row Level Security will be enabled on every user-owned table.
 
@@ -587,7 +585,7 @@ Service-role credentials must never be exposed in browser code.
 
 ---
 
-# Storage Design
+## Storage Design
 
 Supabase Storage may be used for:
 
@@ -612,7 +610,7 @@ user-id/
 
 ---
 
-# Validation Rules
+## Validation Rules
 
 Examples of planned validation:
 
@@ -626,7 +624,7 @@ Examples of planned validation:
 
 ---
 
-# Indexing Strategy
+## Indexing Strategy
 
 Indexes will be added to columns commonly used for:
 
@@ -641,7 +639,7 @@ Indexes should be added based on actual query patterns rather than preemptively 
 
 ---
 
-# Backup and Recovery
+## Backup and Recovery
 
 Planned protections include:
 
@@ -653,7 +651,7 @@ Planned protections include:
 
 ---
 
-# Future Database Enhancements
+## Future Database Enhancements
 
 Possible future additions include:
 
@@ -669,7 +667,7 @@ Possible future additions include:
 
 ---
 
-# Current Status
+## Current Status
 
 The database is currently in the planning stage.
 

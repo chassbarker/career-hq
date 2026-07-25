@@ -46,4 +46,3 @@ If applicable, include screenshots.
 ## Additional Notes
 
 Add any additional information reviewers should know.
-
