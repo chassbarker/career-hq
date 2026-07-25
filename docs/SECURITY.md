@@ -1,7 +1,7 @@
 # Security
 
 | Property | Value |
-|----------|-------|
+| -------- | ----- |
 | Document | Security Documentation |
 | Project | Career HQ |
 | Document Version | 0.2.0 |
