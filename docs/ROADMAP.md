@@ -97,3 +97,21 @@ Career HQ will be developed incrementally so each version can be planned, tested
 - Monitoring and logging
 - Architecture documentation
 - Demo video and portfolio case study
+
+# Versioning Strategy
+
+Career HQ follows Semantic Versioning.
+
+- Major versions introduce production-ready milestones.
+- Minor versions introduce new features.
+- Patch versions address bug fixes and maintenance updates.
+
+Example:
+
+v0.2.0
+v0.3.0
+v0.4.0
+
+...
+
+v1.0.0
