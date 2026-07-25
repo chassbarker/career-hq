@@ -7,12 +7,12 @@
 | Document Version | 0.2.0 |
 | Product Version | 0.2.0 |
 | Status | In Development |
-| Author | Chassidy Barker |
-| Last Updated | July 2026 |
+| Owner | Chassidy Barker |
+| Last Updated | July 24, 2026 |
 
 ---
 
-## Contributing to Career HQ
+## Overview
 
 Thank you for your interest in contributing to Career HQ.
 
@@ -150,3 +150,25 @@ When appropriate, update:
 This project is licensed under the MIT License.
 
 See the LICENSE file for details.
+
+---
+
+## Current Status
+
+### Implemented
+
+- Defined contribution workflow and standards
+- Documented branch naming and commit conventions
+- Added testing and documentation update expectations
+
+### Planned
+
+- Update contributor guidance when external contributions are enabled
+
+---
+
+## Revision History
+
+| Version | Date | Description |
+| ------- | ---- | ----------- |
+| 0.2.0 | July 24, 2026 | Initial contributing guide |

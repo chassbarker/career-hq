@@ -7,11 +7,12 @@
 | Document Version | 0.2.0 |
 | Product Version | 0.2.0 |
 | Status | In Development |
-| Author | Chassidy Barker |
-| Last Updated | July 2026 |
+| Owner | Chassidy Barker |
+| Last Updated | July 24, 2026 |
 
 ---
-`n## Overview
+
+## Overview
 
 Career HQ will use PostgreSQL through Supabase to store user-owned career data securely.
 
@@ -90,6 +91,8 @@ The database will use:
 ---
 
 ## Core Tables
+
+<!-- markdownlint-disable MD024 -->
 
 ## 1. profiles
 
@@ -545,6 +548,8 @@ Stores unsorted ideas, reminders, and notes for later organization.
 
 ## Relationships Summary
 
+<!-- markdownlint-enable MD024 -->
+
 ```text
 profiles
 │
@@ -678,3 +683,11 @@ This document defines the initial relational design and will be updated as:
 - Relationships are tested
 - Row Level Security policies are implemented
 - Application requirements change
+
+---
+
+## Revision History
+
+| Version | Date | Description |
+| ------- | ---- | ----------- |
+| 0.2.0 | July 24, 2026 | Initial database design |

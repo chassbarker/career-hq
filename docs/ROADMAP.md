@@ -7,10 +7,12 @@
 | Document Version | 0.2.0 |
 | Product Version | 0.2.0 |
 | Status | Active |
-| Author | Chassidy Barker |
-| Last Updated | July 2026 |
+| Owner | Chassidy Barker |
+| Last Updated | July 24, 2026 |
 
 ---
+
+## Overview
 
 Career HQ will be developed incrementally so each version can be planned, tested, documented, and improved before the next stage begins.
 
@@ -127,3 +129,26 @@ v0.4.0
 ...
 
 v1.0.0
+
+---
+
+## Current Status
+
+### Implemented
+
+- Versioned roadmap through 1.0.0
+- Milestone-based feature planning
+- Semantic versioning strategy alignment
+
+### Planned
+
+- Refine milestone details as implementation progresses
+- Add release readiness checkpoints per major milestone
+
+---
+
+## Revision History
+
+| Version | Date | Description |
+| ------- | ---- | ----------- |
+| 0.2.0 | July 24, 2026 | Initial development roadmap |

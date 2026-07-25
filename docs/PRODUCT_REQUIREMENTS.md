@@ -9,8 +9,14 @@
 | Document Version | 0.2.0 |
 | Product Version | 0.2.0 |
 | Status | In Development |
-| Author | Chassidy Barker |
-| Last Updated | July 2026 |
+| Owner | Chassidy Barker |
+| Last Updated | July 24, 2026 |
+
+---
+
+## Overview
+
+This document defines the goals, scope, functional expectations, and release direction for Career HQ.
 
 ---
 
@@ -56,14 +62,14 @@ Career HQ brings these activities together into one centralized application.
 
 ## Target Audience
 
-## Primary Users
+### Primary Users
 
 - College students
 - Recent graduates
 - Career changers
 - Early-career professionals
 
-## Secondary Users
+### Secondary Users
 
 - Internship applicants
 - Cloud engineers
@@ -89,7 +95,7 @@ Career HQ should:
 
 ## User Stories
 
-### Job Applications
+### Job Applications User Story
 
 As a job seeker,
 
@@ -119,7 +125,7 @@ So I can prepare more effectively.
 
 ---
 
-### Certifications
+### Certifications User Story
 
 As a technology professional,
 
@@ -129,7 +135,7 @@ So I can easily demonstrate my qualifications.
 
 ---
 
-### Portfolio Projects
+### Portfolio Projects User Story
 
 As a developer,
 
@@ -141,7 +147,7 @@ So I can showcase my experience to employers.
 
 ## Core Features
 
-## Dashboard
+### Dashboard
 
 - Career overview
 - Application statistics
@@ -152,7 +158,7 @@ So I can showcase my experience to employers.
 
 ---
 
-## Job Applications
+### Job Applications
 
 - Application tracking
 - Status management
@@ -163,7 +169,7 @@ So I can showcase my experience to employers.
 
 ---
 
-## Resume HQ
+### Resume HQ
 
 - Master resume
 - Role-specific resumes
@@ -172,7 +178,7 @@ So I can showcase my experience to employers.
 
 ---
 
-## Interview HQ
+### Interview HQ
 
 - Company research
 - STAR stories
@@ -183,7 +189,7 @@ So I can showcase my experience to employers.
 
 ---
 
-## Portfolio Projects
+### Portfolio Projects
 
 - Project management
 - GitHub repositories
@@ -194,7 +200,7 @@ So I can showcase my experience to employers.
 
 ---
 
-## Certifications
+### Certifications
 
 - Certification tracking
 - Credly badges
@@ -203,7 +209,7 @@ So I can showcase my experience to employers.
 
 ---
 
-## Salary Research
+### Salary Research
 
 - Salary comparisons
 - Market research
@@ -212,7 +218,7 @@ So I can showcase my experience to employers.
 
 ---
 
-## Networking
+### Networking
 
 - Recruiters
 - Mentors
@@ -221,7 +227,7 @@ So I can showcase my experience to employers.
 
 ---
 
-## AI Assistant (Planned)
+### AI Assistant (Planned)
 
 Future AI capabilities may include:
 
@@ -255,7 +261,7 @@ The application shall allow users to:
 
 ## Non-Functional Requirements
 
-## Security
+### Security
 
 - Secure authentication
 - Row Level Security
@@ -264,7 +270,7 @@ The application shall allow users to:
 
 ---
 
-## Accessibility
+### Accessibility
 
 - WCAG 2.2 AA compliance
 - Keyboard accessibility
@@ -274,7 +280,7 @@ The application shall allow users to:
 
 ---
 
-## Performance
+### Performance
 
 The application should:
 
@@ -285,7 +291,7 @@ The application should:
 
 ---
 
-## Reliability
+### Reliability
 
 Career information should remain secure, consistent, and recoverable through documented backup and recovery procedures.
 
@@ -293,22 +299,22 @@ Career information should remain secure, consistent, and recoverable through doc
 
 ## Technology Stack
 
-## Frontend
+### Frontend
 
 - HTML5
 - CSS3
 - JavaScript
 
-## Backend (Planned)
+### Backend (Planned)
 
 - Supabase
 - PostgreSQL
 
-## Cloud (Planned)
+### Cloud (Planned)
 
 - AWS
 
-## Development
+### Development
 
 - Git
 - GitHub
@@ -383,7 +389,7 @@ The following are not included in the current version:
 
 ## Current Status
 
-## Completed
+### Completed
 
 - GitHub repository
 - Professional README
@@ -393,14 +399,14 @@ The following are not included in the current version:
 - Design system
 - Git workflow
 
-## In Progress
+### In Progress
 
 - Dashboard UI
 - Product documentation
 - System architecture
 - Database planning
 
-## Planned
+### Planned
 
 - Authentication
 - PostgreSQL database
@@ -411,6 +417,8 @@ The following are not included in the current version:
 
 ## Revision History
 
+<!-- markdownlint-disable MD060 -->
 | Version | Date      | Description                            |
 | ------- | --------- | -------------------------------------- |
-| 0.2.0   | July 2026 | Initial Product Requirements Document  |
+| 0.2.0   | July 24, 2026 | Initial Product Requirements Document |
+<!-- markdownlint-enable MD060 -->

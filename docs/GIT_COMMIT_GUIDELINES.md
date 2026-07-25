@@ -7,10 +7,12 @@
 | Document Version | 0.2.0 |
 | Product Version | 0.2.0 |
 | Status | Active |
-| Author | Chassidy Barker |
-| Last Updated | July 2026 |
+| Owner | Chassidy Barker |
+| Last Updated | July 24, 2026 |
 
 ---
+
+## Overview
 
 Career HQ follows the Conventional Commits specification to create a clear, organized, and professional Git history.
 
@@ -180,3 +182,25 @@ git commit -m "feat: add Resume HQ" -m "
 7. Update the changelog if applicable.
 
 This workflow is used throughout the Career HQ project to maintain a clean, professional development history.
+
+---
+
+## Current Status
+
+### Implemented
+
+- Conventional commit format guidance
+- Commit type definitions and examples
+- Project workflow and commit quality expectations
+
+### Planned
+
+- Expand examples as new workflow patterns are introduced
+
+---
+
+## Revision History
+
+| Version | Date | Description |
+| ------- | ---- | ----------- |
+| 0.2.0 | July 24, 2026 | Initial Git commit guidelines |

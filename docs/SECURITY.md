@@ -7,8 +7,8 @@
 | Document Version | 0.2.0 |
 | Product Version | 0.2.0 |
 | Status | In Development |
-| Author | Chassidy Barker |
-| Last Updated | July 2026 |
+| Owner | Chassidy Barker |
+| Last Updated | July 24, 2026 |
 
 ---
 
@@ -37,7 +37,7 @@ Career HQ is designed to:
 
 ## Authentication
 
-### Current Status
+### Authentication Status
 
 Authentication is planned for a future release.
 
@@ -277,7 +277,7 @@ Planned improvements include:
 
 ---
 
-## Implementation Status
+## Current Status
 
 ### Implemented
 
@@ -304,6 +304,8 @@ Planned improvements include:
 
 ## Revision History
 
+<!-- markdownlint-disable MD060 -->
 | Version | Date      | Description                    |
 | ------- | --------- | ------------------------------ |
-| 0.2.0   | July 2026 | Initial security documentation |
+| 0.2.0   | July 24, 2026 | Initial security documentation |
+<!-- markdownlint-enable MD060 -->

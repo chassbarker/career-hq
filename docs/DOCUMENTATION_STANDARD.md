@@ -265,7 +265,7 @@ Every document should end with:
 # Revision History
 
 | Version | Date | Description |
-|----------|------|-------------|
+| ------- | ---- | ----------- |
 | 0.2.0 | July 24, 2026 | Initial document |
 ```
 
